@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruosh - Premium Bathroom Fittings Since 1984</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+            animation: fadeIn 1s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 3.5em;
+            font-weight: bold;
+            letter-spacing: 8px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .tagline {
+            font-size: 1.2em;
+            opacity: 0.95;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        
+        .content {
+            padding: 50px 40px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #1e3c72;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+            padding-left: 15px;
+        }
+        
+        .section p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            border-left: 5px solid #667eea;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 1em;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .feature {
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border: 2px solid #e9ecef;
+            transition: all 0.3s ease;
+        }
+        
+        .feature:hover {
+            border-color: #667eea;
+            background: white;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+        
+        .feature h3 {
+            color: #1e3c72;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        
+        .feature p {
+            font-size: 0.95em;
+            color: #666;
+        }
+        
+        .footer {
+            background: #1e3c72;
+            color: white;
+            padding: 30px 40px;
+            text-align: center;
+        }
+        
+        .location {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        
+        .location-icon {
+            display: inline-block;
+            margin-right: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 2.5em;
+                letter-spacing: 4px;
+            }
+            
+            .header {
+                padding: 40px 20px;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            .stats {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">RUOSH</div>
+            <div class="tagline">Premium Bathroom Fittings</div>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2>Welcome to Ruosh</h2>
+                <p>
+                    For over four decades, Ruosh has been at the forefront of bathroom innovation, 
+                    delivering premium faucets and bathroom fittings that combine timeless elegance 
+                    with cutting-edge functionality.
+                </p>
+            </div>
+            
+            <div class="highlight-box">
+                <div class="stats">
+                    <div class="stat-card">
+                        <div class="stat-number">1984</div>
+                        <div class="stat-label">Established</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">40+</div>
+                        <div class="stat-label">Years of Excellence</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Quality Assured</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Our Legacy</h2>
+                <p>
+                    Since 1984, Ruosh has been synonymous with quality and reliability in the bathroom 
+                    fittings industry. What started as a vision to bring world-class faucets to Indian 
+                    homes has evolved into a trusted brand that serves thousands of satisfied customers.
+                </p>
+                <p>
+                    Our commitment to excellence, attention to detail, and customer satisfaction has 
+                    made us a preferred choice for homeowners, architects, and builders across the region.
+                </p>
+            </div>
+            
+            <div class="section">
+                <h2>Why Choose Ruosh?</h2>
+                <div class="features">
+                    <div class="feature">
+                        <h3>🏆 Premium Quality</h3>
+                        <p>Crafted with precision using the finest materials for lasting durability</p>
+                    </div>
+                    <div class="feature">
+                        <h3>💎 Elegant Designs</h3>
+                        <p>Contemporary and classic styles to complement any bathroom aesthetic</p>
+                    </div>
+                    <div class="feature">
+                        <h3>🔧 Expert Service</h3>
+                        <p>Professional installation support and comprehensive after-sales care</p>
+                    </div>
+                    <div class="feature">
+                        <h3>✓ Trusted Brand</h3>
+                        <p>Four decades of reliability and customer satisfaction</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Our Products</h2>
+                <p>
+                    Ruosh offers a comprehensive range of bathroom fittings including premium faucets, 
+                    shower systems, bathroom accessories, and complete bathroom solutions. Each product 
+                    is designed to deliver superior performance while adding a touch of sophistication 
+                    to your space.
+                </p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="location">
+                <span class="location-icon">📍</span>
+                <strong>Chennai, Tamil Nadu</strong>
+            </div>
+            <p style="margin-top: 15px; opacity: 0.9;">
+                Transforming bathrooms since 1984
+            </p>
+        </div>
+    </div>
+</body>
+</html>
